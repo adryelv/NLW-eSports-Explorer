@@ -19,7 +19,7 @@ NLW eSports é um projeto voltado para a conexão entre gamers.
 
 Você pode visualizar o projeto em funcionamento através do link abaixo:
 
-- **[NLW eSports](https://adryelv.github.io/NLW-eSports-Explorer/)**
+- **[NLW eSports 💜](https://adryelv.github.io/NLW-eSports-Explorer/)**
 
 ---
 

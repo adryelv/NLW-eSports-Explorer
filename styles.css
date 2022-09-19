@@ -101,8 +101,7 @@ section ul li:hover {
 /* -------- ANIMAÇÃO GERAL -------- */
 
 /* Animação da foto */
-header div {
-    background: linear-gradient(100deg, #2B37EB 15%, #ED00F5 50%, #EBD602 70%, #29EBE6 100%);
+#opacity {
     animation: fromTop .7s  backwards; 
 }
 @keyframes fromTop {
@@ -115,6 +114,25 @@ header div {
         opacity: 1;
         transform: translateY(0)
     }
+}
+
+.borderAnimation {
+    background: linear-gradient(100deg, #2B37EB 15%, #ED00F5 50%, #EBD602 70%, #29EBE6 100%);
+    background-size: 200% 200%;
+    animation: borderAnimation1 10s linear infinite;
+}
+
+@keyframes borderAnimation1 {
+    0% { 
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+     
+      100% {
+        background-position: 0% 50%;
+      }
 }
 /* --------------------------- */
 
